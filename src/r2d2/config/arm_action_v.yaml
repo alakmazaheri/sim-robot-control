@@ -1,0 +1,5 @@
+type: "robot_mechanism_controllers/JointTrajectoryActionController"
+joints:
+ - shoulder
+ - elbow
+ - wrist

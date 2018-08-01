@@ -1,0 +1,8 @@
+prefix=/home/xbotcore/urdf_ws/devel
+
+Name: poppy
+Description: Description of poppy
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xbotcore/urdf_ws/devel/lib 
+Requires: 

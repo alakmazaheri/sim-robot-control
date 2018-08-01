@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: poppy
+    relative_path: urdf/poppy.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/Poppy_Humanoid.srdf
+  CONFIG:
+    author_name: Ava
+    author_email: ava@nexote.net
+    generated_timestamp: 1531508458

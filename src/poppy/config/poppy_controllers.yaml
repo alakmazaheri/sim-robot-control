@@ -1,0 +1,52 @@
+left_arm_controller:
+ type: "position_controllers/JointTrajectoryController"
+ joints:
+   - l_shoulder_y
+   - l_shoulder_x
+   - l_arm_z
+   - l_elbow_y
+
+right_arm_controller:
+ type: "position_controllers/JointTrajectoryController"
+ joints:
+   - r_shoulder_y
+   - r_shoulder_x
+   - r_arm_z
+   - r_elbow_y
+
+head_controller:
+ type: "position_controllers/JointGroupPositionController"
+ joints:
+   - head_z
+   - head_y
+
+torso_controller:
+ type: "position_controllers/JointGroupPositionController"
+ joints:
+   - bust_y
+   - bust_x
+   - abs_y
+   - abs_x
+   - abs_z
+
+left_leg_controller:
+ type: "position_controllers/JointTrajectoryController"
+ joints:
+   - l_hip_x
+   - l_hip_z
+   - l_hip_y
+   - l_knee_y
+   - l_ankle_y
+
+right_leg_controller:
+ type: "position_controllers/JointTrajectoryController"
+ joints:
+   - r_hip_x
+   - r_hip_z
+   - r_hip_y
+   - r_knee_y
+   - r_ankle_y
+
+joint_state_controller:
+ type: "joint_state_controller/JointStateController"
+ publish_rate: 50

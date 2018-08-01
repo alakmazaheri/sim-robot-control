@@ -1,0 +1,2 @@
+humanoid_msgs/humanoid_msgs:humanoid_msgs/humanoid_nav_msgs:humanoid_navigation/footstep_planner:humanoid_navigation/gridmap_2d:humanoid_navigation/humanoid_localization:humanoid_navigation/humanoid_navigation:humanoid_navigation/humanoid_planner_2d:patrol:poppy:poppy_moveit_config:r2d2
+-DCATKIN_DEVEL_PREFIX=/home/xbotcore/urdf_ws/devel -DCMAKE_INSTALL_PREFIX=/home/xbotcore/urdf_ws/install -G Unix Makefiles

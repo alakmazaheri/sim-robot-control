@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/xbotcore/urdf_ws/install/setup.sh

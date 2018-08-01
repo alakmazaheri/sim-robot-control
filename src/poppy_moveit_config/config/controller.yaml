@@ -1,0 +1,36 @@
+controller_manager_ns: /
+controller_list:
+  - name: right_arm_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    joints:
+      - r_shoulder_y
+      - r_shoulder_x
+      - r_arm_z
+      - r_elbow_y
+  - name: left_arm_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    joints:
+      - l_shoulder_y
+      - l_shoulder_x
+      - l_arm_z
+      - l_elbow_y
+  - name: right_leg_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    joints:
+      - r_hip_x
+      - r_hip_z
+      - r_hip_y
+      - r_knee_y
+      - r_ankle_y
+  - name: left_leg_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    joints:
+      - l_hip_x
+      - l_hip_z
+      - l_hip_y
+      - l_knee_y
+      - l_ankle_y

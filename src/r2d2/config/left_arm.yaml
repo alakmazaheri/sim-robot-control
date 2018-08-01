@@ -1,0 +1,5 @@
+type: "position_controllers/JointTrajectoryController"
+joints:
+ - left_shoulder
+ - left_elbow
+ - left_wrist
